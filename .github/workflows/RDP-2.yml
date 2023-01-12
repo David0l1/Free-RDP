@@ -8,9 +8,9 @@ jobs:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://dl86.onee-dev.biz.id/ngrok.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://cdn.onee-dev.biz.id/c/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/start.bat -OutFile start.bat
         Invoke-WebRequest http://raw.githubusercontent.com/David0l1/Free-RDP/resource/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://cdn.onee-dev.biz.id/c/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/David0l1/Free-RDP/resource/loop.bat -OutFile loop.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
