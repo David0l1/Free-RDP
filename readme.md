@@ -1,4 +1,10 @@
 <strong><p>Version: </strong>2.0.12</p>
+<h5>Apa Yang Baru?</h5>
+
+<p>
+> Fix Script Yang Error
+</p>
+
 <strong>MY HIT</strong>
 <p align="center"><img src="https://profile-counter.glitch.me/{david0l1}/count.svg" alt="neoxr :: Visitor's Count" /></p>
 
